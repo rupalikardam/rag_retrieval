@@ -1,0 +1,16 @@
+# core (enough to run the offline synthetic demo + tests)
+numpy
+pandas
+scikit-learn>=1.2
+pyyaml
+joblib
+matplotlib
+pytest
+# real experiments (SQuAD 2.0 + Flan-T5) -- install these on Colab / a GPU box
+torch
+transformers>=4.38
+datasets
+sentencepiece
+accelerate
+# optional dense retriever
+# sentence-transformers
